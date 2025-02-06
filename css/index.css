@@ -37,8 +37,8 @@ html,body{
  #right-nav>button{
     padding: 10px 20px;
     border-radius: 50px;
-    border: 1px solid white;
-    background-color:#0b48ed;
+    border: 0.2px solid white;
+    background-color:#0740db;
     color: white;
     height: 3rem;
     width: 6rem;
@@ -57,7 +57,7 @@ html,body{
  }
  #bottom-page1{
     position: absolute;
-    bottom: 4%;
+    bottom: 13%;
     left: 10%;
     height: 55vh;
     width: 100vh;
@@ -68,7 +68,7 @@ html,body{
     line-height: 1;
     color: #fff;
     font-family:Raleway;
-    font-weight: 100;
+    font-weight: 300;
  }
  #secon-part{
     margin-top: 5vh;

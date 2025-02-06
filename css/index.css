@@ -31,6 +31,7 @@ html,body{
 
  }
  #page1>nav>img{
+    margin-top: -3vw;
     width: 9%;
  }
  #right-nav>button{
@@ -40,6 +41,7 @@ html,body{
     background-color:#0b48ed;
     color: white;
     cursor: pointer;
+    margin-right: 10px;
  }
  #right-nav button i{
     font-size:large;

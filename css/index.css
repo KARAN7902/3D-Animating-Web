@@ -57,7 +57,7 @@ html,body{
  }
  #bottom-page1{
     position: absolute;
-    bottom: 3%;
+    bottom: 4%;
     left: 10%;
     height: 55vh;
     width: 100vh;
@@ -67,6 +67,8 @@ html,body{
     font-size: 12vh;
     line-height: 1;
     color: #fff;
+    font-family:Raleway;
+    font-weight: 100;
  }
  #secon-part{
     margin-top: 5vh;

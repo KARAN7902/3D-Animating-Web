@@ -57,10 +57,11 @@ html,body{
  }
  #bottom-page1{
     position: absolute;
-    bottom: 10%;
+    bottom: 3%;
     left: 10%;
-    height: 50vh;
+    height: 55vh;
     width: 100vh;
+    background-color: rebeccapurple;
  }
  #bottom-page1 h1{
     font-size: 12vh;

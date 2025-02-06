@@ -37,7 +37,7 @@ html,body{
  #right-nav>button{
     padding: 10px 20px;
     border-radius: 50px;
-    border: 0.2px solid white;
+    border: 0.2px solid #226bff;
     background-color:#0740db;
     color: white;
     height: 3rem;
@@ -45,7 +45,7 @@ html,body{
     font-family: Raleway;
     cursor: pointer;
     margin-right: 10px;
-    font-size: x-large;
+    font-size:large;
     font-weight:100;
  }
  #right-nav #btn1{

@@ -21,9 +21,27 @@ html,body{
     object-fit: cover;
  }
  #page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
     height: 10vh;
     width: 100vw;
-    background-color: yellow;
     position: absolute;
 
+ }
+ #page1>nav>img{
+    width: 9%;
+ }
+ #right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color:#0b48ed;
+    color: white;
+    cursor: pointer;
+ }
+ #right-nav button i{
+    font-size:large;
+    font-weight: 900;
  }

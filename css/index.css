@@ -40,10 +40,48 @@ html,body{
     border: 1px solid white;
     background-color:#0b48ed;
     color: white;
+    height: 3rem;
+    width: 6rem;
     cursor: pointer;
     margin-right: 10px;
+    font-size: x-large;
+ }
+ #right-nav #btn1{
+    width: 15rem;
+    
+    font-weight: -1px;
  }
  #right-nav button i{
     font-size:large;
     font-weight: 900;
+ }
+ #bottom-page1{
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+ }
+ #bottom-page1 h1{
+    font-size: 7vw;
+    line-height: 1;
+    color: #fff;
+ }
+ #secon-part{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ #secon-part h4{
+    font-size: 2rem;
+    width: 30vw;
+    color: #fff;
+ }
+ #secon-part button{
+    height: 100px;
+    width: 300px;
+    border-radius: 80px;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: #0b48ed;
+    border: transparent;
  }

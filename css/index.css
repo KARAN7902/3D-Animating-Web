@@ -55,6 +55,9 @@ html,body{
    top:-30px;
    left: -30px;
  }
+ #right-nav>button:active::before{
+   
+ }
 
  #right-nav #btn1{
     width: 15rem;

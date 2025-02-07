@@ -90,3 +90,10 @@ html,body{
     color: #0b48ed;
     border: transparent;
  }
+
+ #page{
+   height: 100vh;
+   width: 100vw;
+   background-color: red;
+   position: relative;
+ }

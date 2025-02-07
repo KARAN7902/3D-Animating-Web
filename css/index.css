@@ -117,4 +117,5 @@ html,body{
    font-weight: 100;
    line-height: 1.3;
    font-size: 4vw;
+   text-transform: capitalize;
  }

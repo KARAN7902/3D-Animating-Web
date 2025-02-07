@@ -34,7 +34,7 @@ html,body{
     margin-top: -3vw;
     width: 9%;
  }
- #right-nav>button:before{
+ #right-nav>button{
     padding: 10px 20px;
     border-radius: 50px;
     border: 0.2px solid #226bff;
@@ -47,18 +47,7 @@ html,body{
     margin-right: 10px;
     font-size:large;
     font-weight:100;
-    top:100%;
-    left: 100%;
-    transition: all 0.5s;
  }
- #right-nav>button:hover::before{
-   top:-30px;
-   left: -30px;
- }
- #right-nav>button:active::before{
-   
- }
-
  #right-nav #btn1{
     width: 15rem;
  }

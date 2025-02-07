@@ -90,6 +90,10 @@ html,body{
     color: #0b48ed;
     border: transparent;
  }
+ #fixed-btn{
+   position: sticky;
+   top:0;
+ }
 
  #page2{
    height: 100vh;

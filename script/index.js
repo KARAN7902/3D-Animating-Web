@@ -1,3 +1,5 @@
+loco();
+
 function loco(){
   gsap.registerPlugin(ScrollTrigger);
 

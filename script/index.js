@@ -72,7 +72,7 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-    
+    assets/frames00007.png assets/frames00010.png assets/frames00013.png assets/frames00016.png assets/frames00019.png assets/frames00022.png assets/frames00025.png assets/frames00028.png assets/frames00031.png assets/frames00034.png assets/frames00037.png assets/frames00040.png assets/frames00043.png assets/frames00046.png assets/frames00049.png assets/frames00052.png assets/frames00055.png assets/frames00058.png assets/frames00061.png assets/frames00064.png assets/frames00067.png assets/frames00070.png assets/frames00073.png assets/frames00076.png assets/frames00079.png assets/frames00082.png assets/frames00085.png assets/frames00088.png assets/frames00091.png assets/frames00094.png assets/frames00097.png assets/frames00100.png assets/frames00103.png assets/frames00106.png assets/frames00109.png assets/frames00112.png assets/frames00115.png assets/frames00118.png assets/frames00121.png assets/frames00124.png assets/frames00127.png assets/frames00130.png assets/frames00133.png assets/frames00136.png assets/frames00139.png assets/frames00142.png assets/frames00145.png assets/frames00148.png assets/frames00151.png assets/frames00154.png assets/frames00157.png assets/frames00160.png assets/frames00163.png assets/frames00166.png assets/frames00169.png assets/frames00172.png assets/frames00175.png assets/frames00178.png assets/frames00181.png assets/frames00184.png assets/frames00187.png assets/frames00190.png assets/frames00193.png assets/frames00196.png assets/frames00199.png assets/frames00202.png 
  `;
   return data.split("\n")[index];
 }

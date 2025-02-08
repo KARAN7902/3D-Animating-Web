@@ -31,3 +31,12 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
+
+
+
+var cluster="";
+
+document.querySelector('#page2>h1').textContent.split("").forEach(function(dets){
+  cluster+=`<span>${dets}</span>`
+  document.querySelector("#page2>h1").innerHTML=cluster;
+})

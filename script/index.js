@@ -54,3 +54,6 @@ gsap.to("#page2>h1>span",{
   stagger: 0.030, // Decrease stagger value to increase speed
   color: '#fff',
 });
+
+
+// CANVAS CODE //

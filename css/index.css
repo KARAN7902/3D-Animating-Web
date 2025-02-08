@@ -128,5 +128,5 @@ html,body{
  }
  #page3>canvas{
    max-height: 100vh;
-   
+   max-width: 100vw;
  }

@@ -126,3 +126,7 @@ html,body{
    width: 100vw;
    background-color: rebeccapurple;
  }
+ #page3>canvas{
+   max-height: 100vh;
+   
+ }

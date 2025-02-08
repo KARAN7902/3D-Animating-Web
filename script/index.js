@@ -72,7 +72,7 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-    // paste all images here!!
+    
  `;
   return data.split("\n")[index];
 }

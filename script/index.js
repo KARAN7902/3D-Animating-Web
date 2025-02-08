@@ -133,7 +133,7 @@ function scaleImage(img, ctx) {
 }
 ScrollTrigger.create({
 
-  trigger: "// object you want to pin it.",
+  trigger: "#page2",
   pin: true,
   // markers:true,
   scroller: `#main`,

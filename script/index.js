@@ -40,3 +40,17 @@ document.querySelector('#page2>h1').textContent.split("").forEach(function(dets)
   cluster+=`<span>${dets}</span>`
   document.querySelector("#page2>h1").innerHTML=cluster;
 })
+
+
+
+gsap.to("#page2>h1>span",{
+  ScrollTrigger:{
+    trigger:`#page2>h1>span`,
+    start:`top bottom `,
+    end:`bottom top`,
+    scroller:`main`,
+    scrub:.6
+  },
+  stagger:.1,
+  color:'#fff',
+})

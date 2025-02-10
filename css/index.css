@@ -142,4 +142,10 @@ html,body{
  #page4>h3{
    font-size: 2rem;
    padding: 2rem;
+   text-transform: uppercase;
+   font-family: Ralewway;
+ }
+ #page4>h1{
+   padding: 2rem;
+   font-size: 90px;
  }

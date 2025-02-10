@@ -133,7 +133,7 @@ html,body{
    max-width: 100vw;
  }
  #page4{
-   margin:8vw;
+   margin:8%;
    position: relative;
    height: 100vh;
    width: 100vw;
@@ -146,13 +146,11 @@ html,body{
  }
  #page4>h3{
    font-size: 2rem;
-   padding: 2rem;
    text-transform: uppercase;
    font-family: Raleway;
    font-weight: 300;
  }
  #page4 h1{
-   padding: 2rem;
    font-size: 30px;
    font-family: Raleway;
    font-weight: 300;

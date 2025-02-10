@@ -211,7 +211,7 @@ ScrollTrigger.create({
 
 }
 CANVAS();
-
+var cluster = "";
 document.querySelector('#page4>h1').textContent.split("").forEach(function (dets) {
   cluster += `<span>${dets}</span>`
   document.querySelector("#page4>h1").innerHTML = cluster;

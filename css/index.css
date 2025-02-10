@@ -8,6 +8,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
+    background-color:  #0539ca;
 }
 #page1{
     height: 100vh;

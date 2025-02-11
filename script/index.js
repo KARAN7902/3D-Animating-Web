@@ -225,9 +225,9 @@ gsap.to("#page4>h1>span", {
     start: `top bottom`,
     end: `bottom top`,
     scroller: `#main`,
-    scrub:.5, // Decrease scrub value to increase speed
+    scrub:0.030, // Decrease scrub value to increase speed
   },
-  stagger:.2, // Decrease stagger value to increase speed
+  stagger:0.030, // Decrease stagger value to increase speed
   color: '#fff',
 });
 

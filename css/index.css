@@ -181,7 +181,6 @@ html,body{
    justify-content: center;
    flex-direction: column;
    background-color: #0539ca;
-   color: #fff;
    padding: 0 6vw;
  }
  #page6>h3{
@@ -189,9 +188,11 @@ html,body{
    font-family:Raleway;
     font-weight: 300;
     padding-bottom: 2rem;
+    color: #fff;
  }
  #page6>h1{
     font-size: 90px;
     font-family:Raleway;
     font-weight: 300;
+    color: #ffffff53;
  }

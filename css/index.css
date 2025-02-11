@@ -182,4 +182,8 @@ html,body{
    flex-direction: column;
    background-color: #0539ca;
    color: #fff;
+   padding: 0 6vw;
+ }
+ #page6>h1{
+   
  }

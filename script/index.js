@@ -230,3 +230,4 @@ gsap.to("#page4>h1>span", {
   stagger:.2, // Decrease stagger value to increase speed
   color: '#fff',
 });
+

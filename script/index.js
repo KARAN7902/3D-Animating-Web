@@ -232,7 +232,7 @@ gsap.to("#page4>h1>span", {
 });
 
 function CANVAS2(){
-  const canvas = document.querySelector("canvas");
+  const canvas = document.querySelector("#page5>canvas");
 const context = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;

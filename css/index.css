@@ -160,6 +160,12 @@ html,body{
    line-height:100px;
    letter-spacing: -2px;
  }
+ #page5{
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+   /* background-color: rebeccapurple; */
+ }
 
  #page5>canvas{
    max-height: 100vh;

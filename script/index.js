@@ -375,18 +375,18 @@ ScrollTrigger.create({
 CANVAS2();
 
 
-var cluster = "";
+var cluster3 = "";
 
-document.querySelector('#page2>h1').textContent.split("").forEach(function (dets) {
-  cluster += `<span>${dets}</span>`
-  document.querySelector("#page2>h1").innerHTML = cluster;
+document.querySelector('#page6>h1').textContent.split("").forEach(function (dets) {
+  cluster3 += `<span>${dets}</span>`
+  document.querySelector("#page6>h1").innerHTML = cluster3;
 })
 
 
 
-gsap.to("#page2>h1>span", {
+gsap.to("#page6>h1>span", {
   ScrollTrigger: {
-    trigger: `#page2>h1>span`,
+    trigger: `#page6>h1>span`,
     start: `top bottom`,
     end: `bottom top`,
     scroller: `#main`,

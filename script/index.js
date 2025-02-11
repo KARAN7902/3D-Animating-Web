@@ -375,11 +375,10 @@ ScrollTrigger.create({
 CANVAS2();
 
 
-var cluster3 = "";
-
+var cluster1 = "";
 document.querySelector('#page6>h1').textContent.split("").forEach(function (dets) {
-  cluster3 += `<span>${dets}</span>`
-  document.querySelector("#page6>h1").innerHTML = cluster3;
+  cluster1 += `<span>${dets}</span>`
+  document.querySelector("#page6>h1").innerHTML = cluster1;
 })
 
 
@@ -390,8 +389,8 @@ gsap.to("#page6>h1>span", {
     start: `top bottom`,
     end: `bottom top`,
     scroller: `#main`,
-    scrub: 0.030, // Decrease scrub value to increase speed
+    scrub:.1, // Decrease scrub value to increase speed
   },
-  stagger: 0.030, // Decrease stagger value to increase speed
+  stagger:.1, // Decrease stagger value to increase speed
   color: '#fff',
 });

@@ -247,12 +247,65 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-   
+   assets/bridges00004.png
+   assets/bridges00007.png 
+   assets/bridges00010.png 
+   assets/bridges00013.png 
+   assets/bridges00016.png 
+   assets/bridges00019.png 
+   assets/bridges00022.png 
+   assets/bridges00025.png 
+   assets/bridges00028.png 
+   assets/bridges00031.png 
+   assets/bridges00034.png 
+   assets/bridges00037.png 
+   assets/bridges00040.png 
+   assets/bridges00043.png 
+   assets/bridges00046.png 
+   assets/bridges00049.png 
+   assets/bridges00052.png 
+   assets/bridges00055.png 
+   assets/bridges00058.png 
+   assets/bridges00061.png 
+   assets/bridges00064.png 
+   assets/bridges00067.png 
+   assets/bridges00070.png 
+   assets/bridges00073.png 
+   assets/bridges00076.png 
+   assets/bridges00079.png 
+   assets/bridges00082.png 
+   assets/bridges00085.png 
+   assets/bridges00088.png 
+   assets/bridges00091.png 
+   assets/bridges00094.png 
+   assets/bridges00097.png 
+   assets/bridges00100.png 
+   assets/bridges00103.png 
+   assets/bridges00106.png 
+   assets/bridges00109.png 
+   assets/bridges00112.png 
+   assets/bridges00115.png 
+   assets/bridges00118.png 
+   assets/bridges00121.png 
+   assets/bridges00124.png 
+   assets/bridges00127.png 
+   assets/bridges00130.png 
+   assets/bridges00133.png 
+   assets/bridges00136.png 
+   assets/bridges00139.png 
+   assets/bridges00142.png 
+   assets/bridges00145.png 
+   assets/bridges00148.png 
+   assets/bridges00151.png 
+   assets/bridges00154.png 
+   assets/bridges00157.png 
+   assets/bridges00160.png 
+   assets/bridges00163.png 
  `;
   return data.split("\n")[index];
 }
 
-const frameCount = 66;
+const frameCount = 54;
 
 const images = [];
 const imageSeq = {
@@ -271,7 +324,7 @@ gsap.to(imageSeq, {
   ease: `none`,
   scrollTrigger: {
     scrub: 0.15,
-    trigger: `#page3>canvas`,
+    trigger: `#page5>canvas`,
     //   set start end according to preference
     start: `top top`,
     end: `600% top`,
@@ -308,7 +361,7 @@ function scaleImage(img, ctx) {
 }
 ScrollTrigger.create({
 
-  trigger: "#page3",
+  trigger: "#page5",
   pin: true,
   // markers:true,
   scroller: `#main`,
@@ -319,4 +372,4 @@ ScrollTrigger.create({
 
 
 }
-CANVAS();
+CANVAS2();

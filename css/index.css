@@ -185,7 +185,9 @@ html,body{
    padding: 0 6vw;
  }
  #page6>h3{
-   
+   font-size: 30px;
+   font-family:Raleway;
+    font-weight: 300;
  }
  #page6>h1{
     font-size: 90px;

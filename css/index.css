@@ -208,7 +208,7 @@ html,body{
  }
  .page7-cir{
   position: absolute;
-  height: 25vh;
+  height: 25vw;
   width: 100vw;
   background-color: red;
   border-radius: 50%;

@@ -207,6 +207,7 @@ html,body{
   max-width:100vw;
  }
  .page7-cir{
+  position: absolute;
   height: 69vh;
   width: 100vw;
   background-color: red;

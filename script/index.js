@@ -555,3 +555,28 @@ function files(index) {
   return data.split("\n")[index];
   }
 
+ 
+  const frameCount = 136;
+          
+  const images = [];
+  const imageSeq = {
+  frame: 1,
+  };
+  
+  for (let i = 0; i < frameCount; i++) {
+  const img = new Image();
+  img.src = files(i);
+  images.push(img);
+  }
+  
+  gsap.to(imageSeq, {
+  frame: frameCount - 1,
+  snap: "frame",
+  ease: `none`,
+  scrollTrigger: {
+    scrub: .5,
+    trigger: `#page7`,
+    start: `top top`,
+    end: `250% top`,
+    scroller: `#main`,
+  },

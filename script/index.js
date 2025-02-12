@@ -395,5 +395,20 @@ gsap.to("#page6>h1>span", {
   color: '#fff',
 });
 
+//page7 canvas
+
+function canvas2(){
+  const canvas = document.querySelector("#page7>canvas");
+const context = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+
+window.addEventListener("resize", function () {
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+render();
+});
 
 

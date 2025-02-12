@@ -323,7 +323,7 @@ gsap.to(imageSeq, {
   snap: "frame",
   ease: `none`,
   scrollTrigger: {
-    scrub: 0.15,
+    scrub: 0.1,
     trigger: `#page5>canvas`,
     //   set start end according to preference
     start: `top top`,

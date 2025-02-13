@@ -625,7 +625,7 @@ scrollTrigger:{
 trigger:`.page7-cir`,
 start:`top center`,
 end:`bottom top`,
-markers:true,
+// markers:true,
 scroller:`#main`,
 scrub:.5 
 },

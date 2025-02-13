@@ -8,7 +8,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
-    background-color:  #0539ca;
+    background-color: #093dcd;
 }
 #page1{
     height: 100vh;
@@ -238,6 +238,6 @@ html,body{
   align-items: center;
  }
  #page8>video{
-  max-height: 100vh;
-  max-width: 100vw;
+  height: 100vh;
+  width: 100%;
  }

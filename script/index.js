@@ -629,6 +629,6 @@ markers:true,
 scroller:`#main`,
 scrub:.5 
 },
-backgroundColor:`#0539ca`,
+// backgroundColor:`#0539ca`,
 scale:2
 }

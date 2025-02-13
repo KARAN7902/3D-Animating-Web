@@ -630,5 +630,5 @@ scroller:`#main`,
 scrub:.5 
 },
 // backgroundColor:`#0539ca`,
-scale:2
+scale:1.5
 });

@@ -623,11 +623,11 @@ canvas2()
 gsap.to(".page7-cir"),{
 scrollTrigger:{
 trigger:`.page7-cir`,
-start:`top top`,
+start:`top bottom`,
 end:`bottom top`,
 markers:true,
 scroller:`#main`,
 scrub:.5 
 },
-backgroundColor:``
+backgroundColor:`#0539ca`,
 }

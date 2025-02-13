@@ -624,6 +624,10 @@ gsap.to(".page7-cir"),{
 scrollTrigger:{
 trigger:`.page7-cir`,
 start:`top top`,
-end:`bottom top` 
-}
+end:`bottom top`,
+markers:true,
+scroller:`#main`,
+scrub:.5 
+},
+backgroundColor:``
 }

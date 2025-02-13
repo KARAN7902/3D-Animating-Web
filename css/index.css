@@ -213,6 +213,7 @@ html,body{
   height: 25vw;
   transform: translate(-50%,-50%);
   width: 25vw;
+  z-index: 9;
   border-radius: 50%;
   border-radius: 2px solid white;
  }

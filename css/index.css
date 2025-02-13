@@ -228,3 +228,12 @@ html,body{
   border: 2px solid white;
 
  }
+ #page8{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  /* background-color: #0539ca; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }

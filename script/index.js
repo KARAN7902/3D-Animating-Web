@@ -618,3 +618,8 @@ end: `250% top`,
 });
 }
 canvas2()
+
+
+gsap.to("page7-cir"){
+  
+}

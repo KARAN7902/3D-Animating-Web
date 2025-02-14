@@ -253,10 +253,10 @@ html,body{
 
  }
  .page8-bottom>h1{
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #fff;
   font-size: 5vw;
-  font-weight: 100;
+  font-weight: 300;
  }
  .page8-bottom>button{
   padding: 20px 30px ;

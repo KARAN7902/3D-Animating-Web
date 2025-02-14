@@ -238,6 +238,7 @@ html,body{
   align-items: center;
  }
  #page8>video{
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
  }

@@ -275,14 +275,15 @@ html,body{
   font-family:Raleway;
  }
  #page9>h1{
-  font-size: 100px;
  }
  .heading-page9{
   height: 20vh;
+  font-size: 60px;
   background-color: red;
  }
  .image-page9{
-  display: flex;
+  /* display: flex; */
+  /* justify-content: center; */
   height: 80vh;
   background-color: yellow;
  }

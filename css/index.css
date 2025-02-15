@@ -273,17 +273,22 @@ html,body{
   position:relative;
   background-color: #0539ca;
   font-family:Raleway;
+  /* margin: 3VW  ; */
+  padding: 3vw;
  }
  #page9>h1{
  }
  .heading-page9{
   height: 20vh;
   font-size: 60px;
-  background-color: red;
+  /* background-color: red; */
+  margin-bottom: 10VW;
+  color: #fff;
  }
  .image-page9{
   /* display: flex; */
   /* justify-content: center; */
   height: 80vh;
   background-color: yellow;
+
  }

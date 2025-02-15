@@ -288,10 +288,7 @@ html,body{
   margin-bottom: 10VW;
   color: #fff;
  }
- .image-page9{
-  /* display: flex; */
-  /* justify-content: center; */
-  height: 80vh;
-  /* background-color: yellow; */
-
+ 
+ .image-page9>img{
+  border-radius: 30px;
  }

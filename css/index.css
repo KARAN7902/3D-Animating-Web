@@ -272,5 +272,8 @@ html,body{
   width: 100vw;
   position:relative;
   background-color: #0539ca;
-
+  font-family:Raleway;
+ }
+ #page9>h1{
+  font-size: 100px;
  }

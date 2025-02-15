@@ -273,6 +273,7 @@ html,body{
   position:relative;
   background-color: #0539ca;
   font-family:Raleway;
+  display: flex;
   /* margin: 3VW  ; */
   padding: 3vw;
  }
@@ -289,6 +290,6 @@ html,body{
   /* display: flex; */
   /* justify-content: center; */
   height: 80vh;
-  background-color: yellow;
+  /* background-color: yellow; */
 
  }

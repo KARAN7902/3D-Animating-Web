@@ -293,3 +293,6 @@ html,body{
  .image-page9>img{
   border-radius: 30px;
  }
+ #page10{
+  height: 100vh;
+ }

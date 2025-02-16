@@ -301,5 +301,9 @@ html,body{
   padding-left: 34vw;
  }
  .para{
-  
+  height: 15vw;
+  width: 30vw;
+ }
+ .para>h1{
+  color: #fff;
  }

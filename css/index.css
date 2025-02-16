@@ -294,18 +294,19 @@ html,body{
   border-radius: 30px;
  }
  #page10{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
+  padding: 10vw;
   display: flex;
   flex-direction: column;
   padding-left: 34vw;
  }
  .para{
   height: 15vw;
-  width: 30vw;
+  width: 35vw;
   color: #fff;
   font-family:Raleway;
-  font-size: 30px;
+  font-size: 26px;
  }
  .para>h1{
   color: #fff;

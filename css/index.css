@@ -303,6 +303,7 @@ html,body{
  .para{
   height: 15vw;
   width: 30vw;
+  color: #fff;
  }
  .para>h1{
   color: #fff;

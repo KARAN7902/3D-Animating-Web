@@ -298,4 +298,5 @@ html,body{
   width: 100vw;
   display: flex;
   flex-direction: column;
+  padding-left: 34vw;
  }

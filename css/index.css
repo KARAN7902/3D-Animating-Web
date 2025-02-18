@@ -300,6 +300,7 @@ html,body{
   display: flex;
   flex-direction: column;
   padding-left: 34vw;
+  background-color: #0539ca;
  }
  .para{
   height: 15vw;

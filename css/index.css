@@ -298,8 +298,9 @@ html,body{
   width: 100vw;
   /* padding: 0 10vw; */
   display: flex;
-  justify-content: left;
-  padding-left: 34vw;
+  justify-content: right;
+  padding-right: 20vw;
+  /* padding-left: 34vw; */
   background-color: #0539ca;
  }
  #para-box{
@@ -308,7 +309,7 @@ html,body{
   /* padding: 0 10vw; */
   display: flex;
   flex-direction: column;
-  padding-left: 34vw;
+  /* padding-left: 34vw; */
   /* background-color: #0539ca; */
  }
  .para{

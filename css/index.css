@@ -299,6 +299,7 @@ html,body{
  }
  #para-box{
   height: 100%;
+  width: 100%;
  }
  .para{
   height: 15vw;

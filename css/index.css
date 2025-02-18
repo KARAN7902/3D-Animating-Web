@@ -298,7 +298,7 @@ html,body{
   width: 100vw;
   /* padding: 0 10vw; */
   display: flex;
-  flex-direction: column;
+  justify-content: left;
   padding-left: 34vw;
   background-color: #0539ca;
  }

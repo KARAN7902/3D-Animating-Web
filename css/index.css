@@ -296,6 +296,7 @@ html,body{
  #page10{
   height: 100vh;
   width: 100vw;
+  display: flex;
  }
  #para-box{
   height: 100%;

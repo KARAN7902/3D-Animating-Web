@@ -297,7 +297,7 @@ html,body{
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: right;
+  justify-content: center;
  }
  #para-box{
   height: 100%;

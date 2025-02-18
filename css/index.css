@@ -299,6 +299,7 @@ html,body{
   display: flex;
   justify-content: center;
   padding-left: 12vw;
+  background-color: #0539ca;
  }
  #para-box{
   height: 100%;
